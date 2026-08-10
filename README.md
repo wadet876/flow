@@ -47,3 +47,22 @@ start-kickstart /path/to/project
 
 - Uses the official kickstart.nvim source zip and does not require git clone.
 - Keeps your default Neovim config untouched by using NVIM_APPNAME.
+
+## GitHub SSH setup for pushing this repo
+
+Do not commit private keys to git. This repo ignores keys/* by default.
+
+1. Put your key files locally at:
+  - keys/flow_github_key
+  - keys/flow_github_key.pub
+2. Run PowerShell:
+
+powershell -ExecutionPolicy Bypass -File .\scripts\install-github-key.ps1
+
+3. Test SSH:
+
+ssh -T git@github.com
+
+4. Push:
+
+git push -u origin main
