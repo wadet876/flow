@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Attach a grouped view (<session>-pop) of the given tmux session, creating it on first use.
+base="$1"
+exec tmux new-session -A -s "${base}-pop" -t "$base"
