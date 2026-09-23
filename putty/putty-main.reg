@@ -1,6 +1,6 @@
 Windows Registry Editor Version 5.00
 
-[HKEY_CURRENT_USER\Software\SimonTatham\PuTTY\Sessions\WSL-Ubuntu]
+[HKEY_CURRENT_USER\Software\SimonTatham\PuTTY\Sessions\main]
 "HostName"=""
 "UserName"=""
 "Protocol"="ssh"

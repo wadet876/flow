@@ -76,7 +76,7 @@ git push -u origin main
   first: `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`,
   then press prefix + I inside tmux. `tmux/tmux-pop` goes in `~/scripts/`
   (executable); prefix + a uses it for the popup.
-- `putty/WSL-Ubuntu.reg`: PuTTY session settings (xterm-256color, 24-bit
-  colour, xterm-style modified arrow keys, Ctrl-Alt distinct from AltGr). Host,
-  port, user name and key file are left blank; import it with
-  `reg import putty\WSL-Ubuntu.reg`, then fill those in and save.
+- `putty/putty-main.reg`: a PuTTY session named "main" with my settings
+  (xterm-256color, 24-bit colour, xterm-style modified arrow keys, Ctrl-Alt
+  distinct from AltGr). Host, port, user name and key file are left blank;
+  import it with `reg import putty\putty-main.reg`, then fill those in and save.
