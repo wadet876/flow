@@ -66,3 +66,13 @@ ssh -T git@github.com
 4. Push:
 
 git push -u origin main
+
+## Personal config
+
+- `nvim/`: my Neovim config (lazy.nvim, LSP, treesitter, telescope, oil,
+  multicursor, and the `wade-default` / `wade-home` colorschemes). Copy it to
+  `~/.config/nvim`.
+- `putty/WSL-Ubuntu.reg`: PuTTY session settings (xterm-256color, 24-bit
+  colour, xterm-style modified arrow keys, Ctrl-Alt distinct from AltGr). Host,
+  port, user name and key file are left blank; import it with
+  `reg import putty\WSL-Ubuntu.reg`, then fill those in and save.
